@@ -1,0 +1,59 @@
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+.red {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    left: 600px;
+    z-index: -1; 
+}
+.blue {
+    width: 200px;
+    height: 200px;
+    background-color:blue;
+    position: relative;
+    left: 700px;
+    bottom: 100px;
+    z-index: 1;
+}
+.green {
+    width: 200px;
+    height: 200px;
+    background-color: green; 
+    position: relative;
+    bottom: 350px;
+    left: 650px;
+    z-index: +1;
+}
+.green:hover {
+    transform: scale (1.2);
+    rotate: -45deg;
+    transition: 2s;
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+/* Вопрос.
+не получилось отцентрировать этот контейнер
+пробовала двумя способами 
+
+.red .blue .green {
+    display: contents;
+    align-items:center; 
+    а так же обращалась к главному контейнеру 
+.squares {
+    display: contents;
+    align-items:center;
+
+    Все равно не получилось. Не понимаю как сделать 
+
+     */
+
+
