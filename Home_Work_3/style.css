@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    padding: 100px 0;  /* опустили ниже*/
+}
+h1 {
+    font-size: 32px; /*изменили размер текста*/
+    text-align: center; /* разместили заголовок по центру*/
+}
